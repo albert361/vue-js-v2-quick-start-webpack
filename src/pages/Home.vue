@@ -1,14 +1,12 @@
 <template>
-  <main-layout>
-    <p>Welcome home</p>
-  </main-layout>
+    <main-layout>
+        <p>Welcome home</p>
+    </main-layout>
 </template>
 
 <script>
-  import MainLayout from '../layouts/main.vue'
-  export default {
-    components: {
-      MainLayout
+    import MainLayout from '../layouts/main.vue';
+    export default {
+        components: { MainLayout }
     }
-  }
 </script>
